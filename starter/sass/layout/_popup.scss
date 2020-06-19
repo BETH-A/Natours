@@ -1,0 +1,13 @@
+.popup {
+    height: 100vh;
+    background-color: $color-black;
+    opacity: .9;
+    position: relative;
+    &__content {
+        @include center-horizontal-vertical;
+        background-color: $color-white;
+        height: 75%;
+        width: 75%;
+    
+    }
+}
