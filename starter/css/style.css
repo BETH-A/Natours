@@ -1,3 +1,19 @@
+/* 
+0 - 600px;      Phone (max-width media query)
+600 - 900px;    Tablet portrait (max-width media query)
+900 - 1200px;   Tablet landscape (max-width media query)
+1200 - 1800px;  Laptop = this is where our normal style applies
+1800px + ;      Big Desktop (min-width media query)
+
+$breakpoint argumsnt choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+use em as unit for size, not rem as rem is does not covert properly in all browsers
+1em = 16px
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -37,6 +53,18 @@
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
