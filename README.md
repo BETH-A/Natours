@@ -20,8 +20,20 @@ This website was created as part of an online course ADVANCED CSS & SASS on Udem
  - npm-run-all
  - postcss-cli
  
+# Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+You have installed the latest version of node, and npm.
+This project will work on all machines. It was tested with the latest Chrome and Sarifi OS.
+You have read npm documentation for the above mentioned npm packages.
+ 
  # Usage
  To run this website locally, cloan the repo and run npm install to install NPM packages associated with this project.
+ 
+# Contact
+
+If you want to contact me you can reach me at elizabeth78@me.com.
 
 
 # Project Copyright
