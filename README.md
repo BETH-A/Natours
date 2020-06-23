@@ -2,7 +2,8 @@
 
 This website was created as part of an online course ADVANCED CSS & SASS on Udemy.com. Using HTML, CSS, and SASS this site was created as a playground to learn advanced styling techniques.
 
-# Features:
+# Features
+
  - 7-1 CSS Architure
  - SASS Mixins, Variables, Component styling
  - Mobile Responsive
@@ -13,7 +14,8 @@ This website was created as part of an online course ADVANCED CSS & SASS on Udem
   - Simple Build Process
   
   
-# NPM Packages included:
+# NPM Packages included
+
  - autoprefixer
  - concat
  - node-sass
@@ -29,6 +31,7 @@ This project will work on all machines. It was tested with the latest Chrome and
 You have read npm documentation for the above mentioned npm packages.
  
  # Usage
+ 
  To run this website locally, cloan the repo and run npm install to install NPM packages associated with this project.
  
 # Contact
@@ -37,5 +40,6 @@ If you want to contact me you can reach me at elizabeth78@me.com.
 
 
 # Project Copyright
+
 Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim as your own design. A credit to the original auther, Jonas Schmedtmann, is of course highly appreciated!
  
