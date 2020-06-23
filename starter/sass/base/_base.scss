@@ -20,8 +20,7 @@ html {
     }
     // @include respond(phone) { //width < 600?
     //     font-size: 30%; //1rem = 4.8px, 4.8/16= 30%
-    // }
-    
+    // } 
 }
 body {
     box-sizing: border-box;
@@ -30,5 +29,9 @@ body {
     @include respond(tab-port) { //width < 900?
         padding: 0;
     }
+}
 
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
 }
